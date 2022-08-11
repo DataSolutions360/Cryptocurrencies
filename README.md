@@ -24,6 +24,10 @@ We added dummy data, using the pd.get_dummies function to the columns "ALGORITHM
 
 ## Deliverable 2:  Reducting the Data Dimensions Using PCA
 
+In Dleiverable 2, I applied the PCA algorithm(Principal Component Analysis) to reduce the dimensions of the Dataframe to support THREE components, and places these in a new DataFrame.
+
+![image](https://user-images.githubusercontent.com/8845050/184173527-f0aa7d6e-d3cf-4fe3-9f7b-20528504268f.png)
+
 
 ## Deliverable 3: Clustering CryptoCurrencies Using k-Means
 
