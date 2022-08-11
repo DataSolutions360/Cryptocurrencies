@@ -20,8 +20,6 @@ We added dummy data, using the pd.get_dummies function to the columns "ALGORITHM
 
 ![image](https://user-images.githubusercontent.com/8845050/184173009-9f999711-c007-4ecb-877b-d3a48be96511.png)
 
-![image](https://user-images.githubusercontent.com/8845050/184173106-5b4eadc6-6c95-40dc-9fbe-59f046ab8ca0.png)
-
 ## Deliverable 2:  Reducting the Data Dimensions Using PCA
 
 In Dleiverable 2, I applied the PCA algorithm(Principal Component Analysis) to reduce the dimensions of the Dataframe to support THREE components, and places these in a new DataFrame.
@@ -31,6 +29,17 @@ In Dleiverable 2, I applied the PCA algorithm(Principal Component Analysis) to r
 
 ## Deliverable 3: Clustering CryptoCurrencies Using k-Means
 
+Here, I created an elbow curve using HVPLOT to find where the best value for K.  Where the BEND is created, thats your optimal K value.
+
+![image](https://user-images.githubusercontent.com/8845050/184174462-2a62be72-4f07-499d-a456-5d91004fcbfe.png)
+
+Initialize the model:
+
+![image](https://user-images.githubusercontent.com/8845050/184174940-c642fb69-fb0f-41b1-ba39-38f126496244.png)
+
+Created new dataframe, concatenating original DF with PCA DF, and added column "CoinName" to the new dataframe.
+
+![image](https://user-images.githubusercontent.com/8845050/184175887-f2e860ee-44a1-4842-89c5-e0c92e0b0b6e.png)
 
 ## Deliverable 4:  Visualizing Cryptocurrencies Results
 
