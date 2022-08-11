@@ -43,4 +43,34 @@ Created new dataframe, concatenating original DF with PCA DF, and added column "
 
 ## Deliverable 4:  Visualizing Cryptocurrencies Results
 
+For Visualization, I created a 3D interactive graph of all 3 principal components, a selectable table for the tradable cryptocurrencies, as well as a scatter plot.
+
+### 3D Scatter Plot with PCA data and their respective clusters:
+
+![image](https://user-images.githubusercontent.com/8845050/184176946-63cf7027-a2af-4b0b-95db-4032f131a6c4.png)
+
+### Selectabel Table of Clustered DF:
+
+![image](https://user-images.githubusercontent.com/8845050/184177439-e1068e33-fb9d-443a-8623-c13019a5cdb8.png)
+
+### Scatter Plot of tradable cryptos using scaled data of TotalCoinSupply and TotalCoinsMined columns
+
+### Code:
+
+![image](https://user-images.githubusercontent.com/8845050/184177853-cb43dca3-9622-44b1-ab33-b45a05c2d02d.png)
+
+### Scatter Plot of above code:
+
+![image](https://user-images.githubusercontent.com/8845050/184177991-09a66318-8a36-437a-b6eb-04a284f9658b.png)
+
+# Resources:
+
+  - Pandas
+  - PCA(Principal Component Analysis) Algorithm
+  - hvplot(used for panning, zooming, hovering, and clickable/selectable legends)
+  - StandardScaler(Standardization - used to transform the data so that the mean is 0 and the standard deviation is 1)
+  - K-Means CLustering(Unsupervised ML algorithm that groups unlabeled data together in "k" clusters)
+  - MinMaxScaler(used for normalization of data)
+  - Plotly Express(graphics)
+
 
